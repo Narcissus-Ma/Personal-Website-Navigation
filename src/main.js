@@ -22,7 +22,8 @@ const routes = [
 
 const router = new VueRouter({
   routes,
-  mode: 'hash' // 避免服务器端不兼容
+  mode: 'hash', // 避免服务器端不兼容
+  base: process.env.BASE_URL // 默认路径设置
 })
 
 
