@@ -11,9 +11,6 @@ importers:
       core-js:
         specifier: ^3.6.5
         version: 3.40.0
-      gh-pages:
-        specifier: ^6.3.0
-        version: 6.3.0
       vue:
         specifier: ^2.6.11
         version: 2.7.16
@@ -45,6 +42,9 @@ importers:
       file-loader:
         specifier: ^6.2.0
         version: 6.2.0(webpack@5.97.1)
+      gh-pages:
+        specifier: ^6.3.0
+        version: 6.3.0
       html-webpack-plugin:
         specifier: ^5.6.3
         version: 5.6.3(webpack@5.97.1)
