@@ -6,11 +6,11 @@
           <!-- logo -->
           <div class="logo">
             <a href="javascript:void(0)" class="logo-expanded">
-              <img src="../assets/images/logo@2x.png" width="100%" alt="" />
+              <img src="../assets/images/personal-general-logo.png" width="100%" alt="" />
             </a>
             <a href="javascript:void(0)" class="logo-collapsed">
               <img
-                src="../assets/images/logo-collapsed@2x.png"
+                src="../assets/images/user-logo.jpg"
                 width="40"
                 alt=""
               />
@@ -84,7 +84,7 @@
         </ul>
         <ul class="user-info-menu right-links list-inline list-unstyled">
           <li class="hidden-sm hidden-xs">
-            <a href="https://github.com/Anjaxs/WebStack-vue" target="_blank">
+            <a href="https://github.com/Narcissus-Ma" target="_blank">
               <i class="fa-github"></i> GitHub
             </a>
           </li>
