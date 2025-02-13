@@ -39,11 +39,11 @@
                 <div class="row">
                   <div class="col-sm-4">
                     <div class="xe-widget xe-conversations box2 label-info"
-                         onclick="window.open('https://narcissus-ma.github.io/my-blog.github.io/', '_blank')"
+                         onclick="window.open('https://blog.narcissus2ma.us.kg/', '_blank')"
                          data-toggle="tooltip"
                          data-placement="bottom"
                          title=""
-                         data-original-title="https://narcissus-ma.github.io/my-blog.github.io/">
+                         data-original-title="https://blog.narcissus2ma.us.kg/">
                       <div class="xe-comment-entry">
                         <a class="xe-user-img">
                           <img :src="authorImg" class="img-circle" width="40">
