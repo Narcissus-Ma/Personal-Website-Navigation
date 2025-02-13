@@ -127,6 +127,12 @@
         "desc": "综合网站导航"
       },
       {
+        "url": "https://10beasts.net/recommend/",
+        "logo": "assets/images/logos/8001egggmd0selsliqvqgq9zjs4fce.png",
+        "title": "进击的巨人",
+        "desc": "墙的那边真的是敌人么？"
+      },
+      {
         "url": "http://shuxiangjia.cn/#",
         "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
         "title": "书享家",
@@ -223,13 +229,7 @@
         "url": "https://zh.annas-archive.org/",
         "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
         "title": "安娜档案馆",
-        "desc": "查询各种电子书，免费下载"
-      },
-      {
-        "url": "http://woniuxy.com/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "蜗牛学院（IT培训）",
-        "desc": ""
+        "desc": "查询各种电子书，免费下载，目前最方便的站点"
       },
       {
         "url": "https://www.twle.cn/",
@@ -282,10 +282,10 @@
     "icon": "linecons-star",
     "web": [
       {
-        "url": "https://narcissus-ma.github.io/my-blog.github.io/",
+        "url": "https://blog.narcissus2ma.us.kg/",
         "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
         "title": "个人博客",
-        "desc": ""
+        "desc": "技术博客，个人生活，随笔，学习笔记"
       },
       {
         "url": "https://narcissus-ma.github.io/low-code-platform/#/",
@@ -316,6 +316,12 @@
         "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
         "title": "图床",
         "desc": "个人图床，图片上传，数据库搭建中。。。"
+      },
+      {
+        "url": "https://img.tramppoet.us.kg/",
+        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+        "title": "图床2",
+        "desc": "个人图床，图片上传，电报接口已失效"
       }
     ]
   }
