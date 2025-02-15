@@ -6,6 +6,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "postbuild": "echo /Personal-Website-Navigation/* /:splat 200 > dist/_redirects",
     "lint": "vue-cli-service lint",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
