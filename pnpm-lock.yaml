@@ -11,6 +11,9 @@ importers:
       core-js:
         specifier: ^3.6.5
         version: 3.40.0
+      express:
+        specifier: ^4.21.2
+        version: 4.21.2(supports-color@6.1.0)
       vue:
         specifier: ^2.6.11
         version: 2.7.16

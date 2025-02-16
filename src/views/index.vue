@@ -88,6 +88,12 @@
               <i class="fa-github"></i> GitHub
             </a>
           </li>
+          <!-- 添加管理入口 -->
+          <li class="hidden-sm hidden-xs">
+            <router-link to="/manage">
+              <i class="fa-cog"></i> 管理
+            </router-link>
+          </li>
         </ul>
       </nav>
 

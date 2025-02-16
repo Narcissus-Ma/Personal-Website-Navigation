@@ -17,7 +17,8 @@ Vue.use(VueRouter)
 
 const routes = [
   { path: '/', component: Index },
-  { path: '/about', component: About }
+  { path: '/about', component: About },
+  { path: '/manage', component: () => import('./views/manage.vue')}
 ]
 
 const router = new VueRouter({
