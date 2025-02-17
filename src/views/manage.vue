@@ -119,7 +119,7 @@ export default {
         categoryIndex: 0,
         title: '',
         url: '',
-        logo: '',
+        logo: 'https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b',
         desc: ''
       }
     }
