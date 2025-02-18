@@ -112,6 +112,12 @@
         "url": "https://linux.do/",
         "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
         "desc": "一个程序员的开源讨论社区"
+      },
+      {
+        "title": "OpenRouter",
+        "url": "https://openrouter.ai/",
+        "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+        "desc": "大模型路由，国内可访问，聚合了许多大模型"
       }
     ]
   },

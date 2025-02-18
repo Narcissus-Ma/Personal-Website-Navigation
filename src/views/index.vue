@@ -89,11 +89,11 @@
             </a>
           </li>
           <!-- 添加管理入口 -->
-          <!-- <li class="hidden-sm hidden-xs">
+            <li v-if="isDevelopment" class="hidden-sm hidden-xs">
             <router-link to="/manage">
               <i class="fa-cog"></i> 管理
             </router-link>
-          </li> -->
+            </li>
         </ul>
       </nav>
 
@@ -139,6 +139,7 @@ export default {
           flag: "./assets/images/flags/flag-us.png",
         },
       ],
+    isDevelopment: process.env.NODE_ENV === 'development',
     };
   },
   created() {
