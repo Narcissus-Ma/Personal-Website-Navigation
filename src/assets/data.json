@@ -1,358 +1,400 @@
-[
-  {
-    "name": "社交媒体与社区",
-    "en_name": "Social Media & Community",
-    "icon": "linecons-star",
-    "web": [
-      {
-        "url": "https://www.youtube.com/",
-        "logo": "assets/images/logos/icon-1hkde8nb05d97sauanl6on2teg5.png",
-        "title": "YouTube",
-        "desc": "油管"
-      },
-      {
-        "url": "https://x.com/home",
-        "logo": "assets/images/logos/msedge_akRwy4G2vQ.png",
-        "title": "X",
-        "desc": "推特，马斯克收购后改为X"
-      },
-      {
-        "url": "https://www.reddit.com/",
-        "logo": "assets/images/logos/icon-1hsa8na4n4dxvt7tlwwozsum9ng.png",
-        "title": "Reddit",
-        "desc": "红迪"
-      },
-      {
-        "url": "http://www.bilibili.com/",
-        "logo": "https://infinityicon.infinitynewtab.com/user-share-icon/d8b62f4d64bda8800b1c788cd5ba3c68.png",
-        "title": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
-        "desc": ""
-      },
-      {
-        "url": "http://www.9GAG.com",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "9GAG",
-        "desc": ""
-      },
-      {
-        "url": "https://mail.google.com/mail/u/0/#inbox",
-        "logo": "assets/images/logos/msedge_8PM2OKqf16.png",
-        "title": "Gmail",
-        "desc": ""
-      }
-    ]
-  },
-  {
-    "name": "开发与技术",
-    "en_name": "Development & Technology",
-    "icon": "linecons-cog",
-    "web": [
-      {
-        "url": "https://github.com/",
-        "logo": "assets/images/logos/msedge_Q10r0mZpZY.png",
-        "title": "GitHub",
-        "desc": "程序员社会，代码拖管平台"
-      },
-      {
-        "url": "https://gitee.com/",
-        "logo": "assets/images/logos/msedge_hieKtiK7wy.png",
-        "title": "Gitee",
-        "desc": "国内代码拖管平台"
-      },
-      {
-        "url": "https://dash.cloudflare.com/",
-        "logo": "assets/images/logos/icon-1hpvrugu96r1qxb6lqd217ogyce.png",
-        "title": "Cloudflare",
-        "desc": "赛博活佛"
-      },
-      {
-        "url": "https://chatgpt.com/",
-        "logo": "assets/images/logos/icon-1hq2ot5184cu8838f9x34sdyzdy.png",
-        "title": "ChatGPT",
-        "desc": "世界上最先进的AI"
-      },
-      {
-        "url": "https://chat.deepseek.com/",
-        "logo": "assets/images/logos/msedge_fTVUSPJt0U.png",
-        "title": "DeepSeek",
-        "desc": "AI界的拼多多，DeepSeek是一个基于GPT-3的搜索引擎，它可以回答您的问题，提供有关任何主题的详细信息，并帮助您发现新的内容。"
-      },
-      {
-        "url": "https://platform.deepseek.com/",
-        "logo": "assets/images/logos/msedge_fTVUSPJt0U.png",
-        "title": "DeepSeek API接口",
-        "desc": "API　keys 入口"
-      },
-      {
-        "url": "https://zh-hans.reactjs.org/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "React",
-        "desc": ""
-      },
-      {
-        "url": "https://www.antdv.com/docs/vue/migration-v3-cn",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "Ant Design - The world's second most popular React UI framework",
-        "desc": ""
-      },
-      {
-        "url": "https://www.iconfont.cn/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "Iconfont-矢量图标库",
-        "desc": ""
-      },
-      {
-        "url": "https://www.typescriptlang.org/zh/tsconfig",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "TypeScript: TS Playground - An online editor for exploring TypeScript and JavaScript",
-        "desc": ""
-      },
-      {
-        "title": "linux do",
-        "url": "https://linux.do/",
-        "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-        "desc": "一个程序员的开源讨论社区"
-      },
-      {
-        "title": "OpenRouter",
-        "url": "https://openrouter.ai/",
-        "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-        "desc": "大模型路由，国内可访问，聚合了许多大模型"
-      }
-    ]
-  },
-  {
-    "name": "导航与工具",
-    "en_name": "Navigation & Tools",
-    "icon": "linecons-doc",
-    "web": [
-      {
-        "url": "https://tophub.today/",
-        "logo": "assets/images/logos/8001dnn7bqi31k0v61hmakt7e6stfo.png",
-        "title": "今日热榜",
-        "desc": "国内各平台资讯聚合"
-      },
-      {
-        "url": "https://adzhp.cc/",
-        "logo": "assets/images/logos/8001egggmd0selsliqvqgq9zjs4fce.png",
-        "title": "艾达杂货铺",
-        "desc": "综合网站导航"
-      },
-      {
-        "url": "https://10beasts.net/recommend/",
-        "logo": "assets/images/logos/8001egggmd0selsliqvqgq9zjs4fce.png",
-        "title": "进击的巨人",
-        "desc": "墙的那边真的是敌人么？"
-      },
-      {
-        "url": "http://shuxiangjia.cn/#",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "书享家",
-        "desc": ""
-      },
-      {
-        "url": "https://www.xue8nav.com/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "学吧导航",
-        "desc": ""
-      },
-      {
-        "url": "https://chrome.zzzmh.cn/index#index",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "极简插件",
-        "desc": ""
-      }
-    ]
-  },
-  {
-    "name": "实用工具与系统",
-    "en_name": "Practical Tools & Systems",
-    "icon": "linecons-lightbulb",
-    "web": [
-      {
-        "url": "https://www.icloud.com.cn/reminders/",
-        "logo": "assets/images/logos/msedge_YIxy3AMPp4.png",
-        "title": "iCloud",
-        "desc": "待办清单在线"
-      },
-      {
-        "url": "https://fly63.com/tool/home.html",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "FLY63",
-        "desc": "各种在线实用小工具"
-      },
-      {
-        "url": "https://www.uugai.com/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "钙网",
-        "desc": "免费的LOGO在线设计制作工具"
-      },
-      {
-        "url": "https://www.uupoop.com/#/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "在线PS",
-        "desc": "在线PS工具"
-      },
-      {
-        "url": "https://tucang.cc/#/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "图仓",
-        "desc": "免费聚合图床"
-      },
-      {
-        "url": "https://bz.zzzmh.cn/index",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "极简壁纸",
-        "desc": "极简壁纸，直接下载"
-      },
-      {
-        "url": "https://www.aconvert.com/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "文件格式转换工具",
-        "desc": ""
-      },
-      {
-        "title": "临时邮箱",
-        "url": "https://tempmail.plus/zh/#!",
-        "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-        "desc": "临时邮箱"
-      }
-    ]
-  },
-  {
-    "name": "设计与创意",
-    "en_name": "Design & Creativity",
-    "icon": "linecons-lightbulb",
-    "web": [
-      {
-        "url": "https://www.dbbqb.com/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "逗比拯救世界--专业的表情包搜索网站",
-        "desc": ""
-      },
-      {
-        "url": "https://www.qiuziti.com/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "字体下载-求字体网",
-        "desc": ""
-      },
-      {
-        "url": "https://www.hippter.com/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "HiPPTER | PPT资源导航",
-        "desc": ""
-      },
-      {
-        "url": "https://neumorphism.io/#e0e0e0",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "Neumorphism.io - Neumorphism/Soft UI CSS shadow generator",
-        "desc": ""
-      }
-    ]
-  },
-  {
-    "name": "教育与学习",
-    "en_name": "Education & Learning",
-    "icon": "linecons-doc",
-    "web": [
-      {
-        "url": "https://zh.annas-archive.org/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "安娜档案馆",
-        "desc": "查询各种电子书，免费下载，目前最方便的站点"
-      },
-      {
-        "url": "https://www.twle.cn/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "[搬书匠] - 电子书(EBook)",
-        "desc": ""
-      },
-      {
-        "url": "https://www.hello-algo.com/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "算法笔记",
-        "desc": ""
-      }
-    ]
-  },
-  {
-    "name": "其他",
-    "en_name": "Others",
-    "icon": "linecons-heart",
-    "web": [
-      {
-        "url": "https://www.huobi.ms/zh-cn/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "火币网",
-        "desc": ""
-      },
-      {
-        "url": "https://xslist.org/zh",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "xslist",
-        "desc": ""
-      },
-      {
-        "url": "https://tineye.com/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "tineye",
-        "desc": "反向图片搜索引擎"
-      },
-      {
-        "url": "https://thepornbest.com/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "porn best",
-        "desc": "18+导航网站"
-      }
-    ]
-  },
-  {
-    "name": "自建网站",
-    "en_name": "Self-built website",
-    "icon": "linecons-star",
-    "web": [
-      {
-        "url": "https://blog.narcissus2ma.us.kg/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "个人博客",
-        "desc": "技术博客，个人生活，随笔，学习笔记"
-      },
-      {
-        "url": "https://narcissus-ma.github.io/low-code-platform/#/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "低代码平台",
-        "desc": "后端开发中。。。"
-      },
-      {
-        "url": "https://narcissus-ma.github.io/narcissus-hooks/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "自定义Hooks",
-        "desc": ""
-      },
-      {
-        "url": "https://narcissus-ma.github.io/nm-spec/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "前端编码规范工程化",
-        "desc": ", 尝试整合一些项目搭建，打包，部署的资源操作"
-      },
-      {
-        "url": "https://resume.narcissus2ma.us.kg/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "个人简历网站",
-        "desc": "关于我，个人简历，技能，项目经验，提供下载简历功能"
-      },
-      {
-        "url": "https://img.liyifei.us.kg/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "图床",
-        "desc": "个人图床，图片上传，数据库搭建中。。。"
-      },
-      {
-        "url": "https://img.tramppoet.us.kg/",
-        "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-        "title": "图床2",
-        "desc": "个人图床，图片上传，电报接口已失效"
-      }
-    ]
-  }
-]
+{
+  "categories": [
+    {
+      "name": "社交媒体与社区",
+      "en_name": "Social Media & Community",
+      "icon": "linecons-star",
+      "web": [
+        {
+          "url": "https://www.youtube.com/",
+          "logo": "assets/images/logos/icon-1hkde8nb05d97sauanl6on2teg5.png",
+          "title": "YouTube",
+          "desc": "油管"
+        },
+        {
+          "url": "https://x.com/home",
+          "logo": "assets/images/logos/msedge_akRwy4G2vQ.png",
+          "title": "X",
+          "desc": "推特，马斯克收购后改为X"
+        },
+        {
+          "url": "https://www.reddit.com/",
+          "logo": "assets/images/logos/icon-1hsa8na4n4dxvt7tlwwozsum9ng.png",
+          "title": "Reddit",
+          "desc": "红迪"
+        },
+        {
+          "url": "http://www.bilibili.com/",
+          "logo": "https://infinityicon.infinitynewtab.com/user-share-icon/d8b62f4d64bda8800b1c788cd5ba3c68.png",
+          "title": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
+          "desc": ""
+        },
+        {
+          "url": "http://www.9GAG.com",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "9GAG",
+          "desc": ""
+        },
+        {
+          "url": "https://mail.google.com/mail/u/0/#inbox",
+          "logo": "assets/images/logos/msedge_8PM2OKqf16.png",
+          "title": "Gmail",
+          "desc": ""
+        },
+        {
+          "title": "橘子影视",
+          "url": "https://www.juziyy.net/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "一个免费的视频网站"
+        }
+      ]
+    },
+    {
+      "name": "开发与技术",
+      "en_name": "Development & Technology",
+      "icon": "linecons-cog",
+      "web": [
+        {
+          "url": "https://github.com/",
+          "logo": "assets/images/logos/msedge_Q10r0mZpZY.png",
+          "title": "GitHub",
+          "desc": "程序员社会，代码拖管平台"
+        },
+        {
+          "url": "https://gitee.com/",
+          "logo": "assets/images/logos/msedge_hieKtiK7wy.png",
+          "title": "Gitee",
+          "desc": "国内代码拖管平台"
+        },
+        {
+          "url": "https://dash.cloudflare.com/",
+          "logo": "assets/images/logos/icon-1hpvrugu96r1qxb6lqd217ogyce.png",
+          "title": "Cloudflare",
+          "desc": "赛博活佛"
+        },
+        {
+          "url": "https://chatgpt.com/",
+          "logo": "assets/images/logos/icon-1hq2ot5184cu8838f9x34sdyzdy.png",
+          "title": "ChatGPT",
+          "desc": "世界上最先进的AI"
+        },
+        {
+          "url": "https://chat.deepseek.com/",
+          "logo": "assets/images/logos/msedge_fTVUSPJt0U.png",
+          "title": "DeepSeek",
+          "desc": "AI界的拼多多，DeepSeek是一个基于GPT-3的搜索引擎，它可以回答您的问题，提供有关任何主题的详细信息，并帮助您发现新的内容。"
+        },
+        {
+          "url": "https://platform.deepseek.com/",
+          "logo": "assets/images/logos/msedge_fTVUSPJt0U.png",
+          "title": "DeepSeek API接口",
+          "desc": "API　keys 入口"
+        },
+        {
+          "url": "https://zh-hans.reactjs.org/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "React",
+          "desc": ""
+        },
+        {
+          "url": "https://www.antdv.com/docs/vue/migration-v3-cn",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "Ant Design - The world's second most popular React UI framework",
+          "desc": ""
+        },
+        {
+          "url": "https://www.iconfont.cn/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "Iconfont-矢量图标库",
+          "desc": ""
+        },
+        {
+          "url": "https://www.typescriptlang.org/zh/tsconfig",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "TypeScript: TS Playground - An online editor for exploring TypeScript and JavaScript",
+          "desc": ""
+        },
+        {
+          "title": "linux do",
+          "url": "https://linux.do/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "一个程序员的开源讨论社区"
+        },
+        {
+          "title": "OpenRouter",
+          "url": "https://openrouter.ai/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "大模型路由，国内可访问，聚合了许多大模型"
+        },
+        {
+          "title": " Github Proxy",
+          "url": "https://ghfast.top/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "github代理加速下载"
+        }
+      ]
+    },
+    {
+      "name": "导航与工具",
+      "en_name": "Navigation & Tools",
+      "icon": "linecons-doc",
+      "web": [
+        {
+          "url": "https://tophub.today/",
+          "logo": "assets/images/logos/8001dnn7bqi31k0v61hmakt7e6stfo.png",
+          "title": "今日热榜",
+          "desc": "国内各平台资讯聚合"
+        },
+        {
+          "url": "https://adzhp.cc/",
+          "logo": "assets/images/logos/8001egggmd0selsliqvqgq9zjs4fce.png",
+          "title": "艾达杂货铺",
+          "desc": "综合网站导航"
+        },
+        {
+          "url": "https://10beasts.net/recommend/",
+          "logo": "assets/images/logos/8001egggmd0selsliqvqgq9zjs4fce.png",
+          "title": "进击的巨人",
+          "desc": "墙的那边真的是敌人么？"
+        },
+        {
+          "url": "http://shuxiangjia.cn/#",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "书享家",
+          "desc": ""
+        },
+        {
+          "url": "https://www.xue8nav.com/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "学吧导航",
+          "desc": ""
+        },
+        {
+          "url": "https://chrome.zzzmh.cn/index#index",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "极简插件",
+          "desc": ""
+        },
+        {
+          "title": "饭太硬",
+          "url": "https://www.xn--sss604efuw.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "一个资源导航网站"
+        }
+      ]
+    },
+    {
+      "name": "实用工具与系统",
+      "en_name": "Practical Tools & Systems",
+      "icon": "linecons-lightbulb",
+      "web": [
+        {
+          "url": "https://www.icloud.com.cn/reminders/",
+          "logo": "assets/images/logos/msedge_YIxy3AMPp4.png",
+          "title": "iCloud",
+          "desc": "待办清单在线"
+        },
+        {
+          "url": "https://fly63.com/tool/home.html",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "FLY63",
+          "desc": "各种在线实用小工具"
+        },
+        {
+          "url": "https://www.uugai.com/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "钙网",
+          "desc": "免费的LOGO在线设计制作工具"
+        },
+        {
+          "url": "https://www.uupoop.com/#/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "在线PS",
+          "desc": "在线PS工具"
+        },
+        {
+          "url": "https://tucang.cc/#/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "图仓",
+          "desc": "免费聚合图床"
+        },
+        {
+          "url": "https://bz.zzzmh.cn/index",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "极简壁纸",
+          "desc": "极简壁纸，直接下载"
+        },
+        {
+          "url": "https://www.aconvert.com/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "文件格式转换工具",
+          "desc": ""
+        },
+        {
+          "title": "临时邮箱",
+          "url": "https://tempmail.plus/zh/#!",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "临时邮箱"
+        }
+      ]
+    },
+    {
+      "name": "设计与创意",
+      "en_name": "Design & Creativity",
+      "icon": "linecons-lightbulb",
+      "web": [
+        {
+          "url": "https://www.dbbqb.com/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "逗比拯救世界--专业的表情包搜索网站",
+          "desc": ""
+        },
+        {
+          "url": "https://www.qiuziti.com/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "字体下载-求字体网",
+          "desc": ""
+        },
+        {
+          "url": "https://www.hippter.com/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "HiPPTER | PPT资源导航",
+          "desc": ""
+        },
+        {
+          "url": "https://neumorphism.io/#e0e0e0",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "Neumorphism.io - Neumorphism/Soft UI CSS shadow generator",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "name": "教育与学习",
+      "en_name": "Education & Learning",
+      "icon": "linecons-doc",
+      "web": [
+        {
+          "url": "https://zh.annas-archive.org/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "安娜档案馆",
+          "desc": "查询各种电子书，免费下载，目前最方便的站点"
+        },
+        {
+          "url": "https://www.twle.cn/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "[搬书匠] - 电子书(EBook)",
+          "desc": ""
+        },
+        {
+          "url": "https://www.hello-algo.com/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "算法笔记",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "name": "其他",
+      "en_name": "Others",
+      "icon": "linecons-heart",
+      "web": [
+        {
+          "url": "https://www.huobi.ms/zh-cn/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "火币网",
+          "desc": ""
+        },
+        {
+          "url": "https://xslist.org/zh",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "xslist",
+          "desc": ""
+        },
+        {
+          "url": "https://tineye.com/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "tineye",
+          "desc": "反向图片搜索引擎"
+        },
+        {
+          "url": "https://thepornbest.com/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "porn best",
+          "desc": "18+导航网站"
+        }
+      ]
+    },
+    {
+      "name": "自建网站",
+      "en_name": "Self-built website",
+      "icon": "linecons-star",
+      "web": [
+        {
+          "url": "https://blog.narcissus2ma.us.kg/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "个人博客",
+          "desc": "技术博客，个人生活，随笔，学习笔记"
+        },
+        {
+          "url": "https://narcissus-ma.github.io/low-code-platform/#/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "低代码平台",
+          "desc": "后端开发中。。。"
+        },
+        {
+          "url": "https://narcissus-ma.github.io/narcissus-hooks/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "自定义Hooks",
+          "desc": ""
+        },
+        {
+          "url": "https://narcissus-ma.github.io/nm-spec/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "前端编码规范工程化",
+          "desc": ", 尝试整合一些项目搭建，打包，部署的资源操作"
+        },
+        {
+          "url": "https://resume.narcissus2ma.us.kg/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "个人简历网站",
+          "desc": "关于我，个人简历，技能，项目经验，提供下载简历功能"
+        },
+        {
+          "url": "https://img.liyifei.us.kg/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "图床",
+          "desc": "个人图床，图片上传，数据库搭建中。。。"
+        },
+        {
+          "url": "https://img.tramppoet.us.kg/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "图床2",
+          "desc": "个人图床，图片上传，电报接口已失效"
+        }
+      ]
+    }
+  ],
+  "searchEngines": [
+    {
+      "name": "DuckGo",
+      "icon": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+      "url": "https://duckduckgo.com/"
+    },
+    {
+      "name": "Google",
+      "icon": "https://www.google.com/favicon.ico",
+      "url": "https://www.google.com/search?q="
+    },
+    {
+      "name": "Baidu",
+      "icon": "https://www.baidu.com/favicon.ico",
+      "url": "https://www.baidu.com/s?wd="
+    },
+    {
+      "name": "Bing",
+      "icon": "https://www.bing.com/favicon.ico",
+      "url": "https://www.bing.com/search?q="
+    }
+  ]
+}

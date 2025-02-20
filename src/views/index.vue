@@ -97,6 +97,9 @@
         </ul>
       </nav>
 
+      <!-- Add SearchBox component here -->
+      <SearchBox />
+
       <div v-for="(item, idx) in items" :key="idx">
         <div v-if="item.web">
           <WebItem :item="item" :transName="transName" />
@@ -114,6 +117,7 @@
 <script>
 import WebItem from "../components/WebItem.vue";
 import Footer from "../components/Footer.vue";
+import SearchBox from "../components/SearchBox.vue";
 import itemsData from "../assets/data.json";
 import { loadJs } from '../assets/js/app.js'
 
@@ -122,10 +126,11 @@ export default {
   components: {
     WebItem,
     Footer,
+    SearchBox,
   },
   data() {
     return {
-      items: itemsData,
+      items: itemsData.categories || itemsData,
       lang: {},
       langList: [
         {
@@ -139,7 +144,7 @@ export default {
           flag: "./assets/images/flags/flag-us.png",
         },
       ],
-    isDevelopment: process.env.NODE_ENV === 'development',
+      isDevelopment: process.env.NODE_ENV === 'development',
     };
   },
   created() {
