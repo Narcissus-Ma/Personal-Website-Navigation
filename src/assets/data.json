@@ -349,6 +349,12 @@
           "url": "https://www.tosound.com/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "声音搜索"
+        },
+        {
+          "title": "学 搜搜",
+          "url": "https://www.xuesousou.net/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "百度网盘资源搜索"
         }
       ]
     },
@@ -405,6 +411,49 @@
           "url": "https://xmsoushu.com/#/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "聚合了各种电子书网站，可以查找各类电子书"
+        }
+      ]
+    },
+    {
+      "name": " 游戏资源论坛",
+      "en_name": "Games",
+      "icon": "linecons-star",
+      "web": [
+        {
+          "title": "91玩家",
+          "url": "https://www.tekqart.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "主机游戏论坛"
+        },
+        {
+          "title": "游戏时光",
+          "url": "https://www.vgtime.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "游戏论坛"
+        },
+        {
+          "title": "围炉",
+          "url": "https://www.wlgooo.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "主机怀旧"
+        },
+        {
+          "title": "奥德彪计划",
+          "url": "https://2468c.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "游戏资源网站"
+        },
+        {
+          "title": "Switch520",
+          "url": "https://www.gamer520.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "switch游戏资源网站"
+        },
+        {
+          "title": "3DM",
+          "url": "https://bbs.3dmgame.com/thread-5978938-1-2.html",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "知名游戏论坛"
         }
       ]
     },
@@ -499,7 +548,7 @@
           "desc": "个人图床，图片上传，电报接口已失效"
         }
       ]
-    }
+    }  
   ],
   "searchEngines": [
     {
