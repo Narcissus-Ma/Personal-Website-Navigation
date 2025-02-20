@@ -512,4 +512,86 @@ export default {
 .mt-4 {
   margin-top: 20px;
 }
+
+/* Website list table styles */
+.table {
+  margin-bottom: 30px;
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.table th {
+  background-color: #f5f5f5;
+  padding: 12px 8px;
+  font-weight: 600;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+
+.table td {
+  padding: 12px 8px;
+  vertical-align: middle;
+  border-bottom: 1px solid #eee;
+  word-break: break-word;
+}
+
+/* Fixed column widths for website list tables */
+.table th:nth-child(1),
+.table td:nth-child(1) {
+  width: 20%;  /* Website Name */
+}
+
+.table th:nth-child(2),
+.table td:nth-child(2) {
+  width: 25%;  /* Link */
+}
+
+.table th:nth-child(3),
+.table td:nth-child(3) {
+  width: 25%;  /* Description */
+}
+
+.table th:nth-child(4),
+.table td:nth-child(4) {
+  width: 15%;  /* Move to Category */
+}
+
+.table th:nth-child(5),
+.table td:nth-child(5) {
+  width: 15%;  /* Operation */
+  text-align: center;
+}
+
+/* Category headings in website list */
+.panel-body h4 {
+  margin: 25px 0 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  color: #333;
+}
+
+/* Select dropdown in website list */
+.table select.form-control.input-sm {
+  width: 100%;
+  max-width: 150px;
+  display: inline-block;
+}
+
+/* Button spacing in table */
+.table .btn {
+  margin: 0 3px;
+}
+
+/* First category heading should not have top margin */
+.panel-body h4:first-child {
+  margin-top: 0;
+}
+
+/* Ensure consistent text wrapping */
+.table td {
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 </style> 

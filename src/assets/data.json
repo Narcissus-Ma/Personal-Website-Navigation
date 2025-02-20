@@ -46,6 +46,12 @@
           "url": "https://www.juziyy.net/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "一个免费的视频网站"
+        },
+        {
+          "title": "Flowith.io",
+          "url": "https://flowith.io/blank",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "一个程序员版的 perplexity"
         }
       ]
     },
@@ -131,6 +137,12 @@
           "url": "https://ghfast.top/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "github代理加速下载"
+        },
+        {
+          "title": "Dribbble",
+          "url": "https://dribbble.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "网页设计素材网站"
         }
       ]
     },
@@ -180,6 +192,12 @@
           "url": "https://www.xn--sss604efuw.com/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "一个资源导航网站"
+        },
+        {
+          "title": "perplexity",
+          "url": "https://www.perplexity.ai/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "AI 搜索"
         }
       ]
     },
