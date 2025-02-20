@@ -27,7 +27,7 @@
           "url": "http://www.bilibili.com/",
           "logo": "https://infinityicon.infinitynewtab.com/user-share-icon/d8b62f4d64bda8800b1c788cd5ba3c68.png",
           "title": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
-          "desc": ""
+          "desc": "国内视频网站"
         },
         {
           "url": "http://www.9GAG.com",
@@ -39,19 +39,7 @@
           "url": "https://mail.google.com/mail/u/0/#inbox",
           "logo": "assets/images/logos/msedge_8PM2OKqf16.png",
           "title": "Gmail",
-          "desc": ""
-        },
-        {
-          "title": "橘子影视",
-          "url": "https://www.juziyy.net/",
-          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "一个免费的视频网站"
-        },
-        {
-          "title": "Flowith.io",
-          "url": "https://flowith.io/blank",
-          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "一个程序员版的 perplexity"
+          "desc": "谷歌邮箱"
         }
       ]
     },
@@ -100,25 +88,7 @@
           "url": "https://zh-hans.reactjs.org/",
           "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
           "title": "React",
-          "desc": ""
-        },
-        {
-          "url": "https://www.antdv.com/docs/vue/migration-v3-cn",
-          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-          "title": "Ant Design - The world's second most popular React UI framework",
-          "desc": ""
-        },
-        {
-          "url": "https://www.iconfont.cn/",
-          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-          "title": "Iconfont-矢量图标库",
-          "desc": ""
-        },
-        {
-          "url": "https://www.typescriptlang.org/zh/tsconfig",
-          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-          "title": "TypeScript: TS Playground - An online editor for exploring TypeScript and JavaScript",
-          "desc": ""
+          "desc": "react官方文档"
         },
         {
           "title": "linux do",
@@ -143,12 +113,54 @@
           "url": "https://dribbble.com/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "网页设计素材网站"
+        },
+        {
+          "title": "Vue",
+          "url": "https://cn.vuejs.org/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "Vue官方文档"
+        },
+        {
+          "title": "Vite",
+          "url": "https://cn.vitejs.dev/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "新一代前端构建打包工具"
+        },
+        {
+          "title": "Webpack",
+          "url": "https://www.webpackjs.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "前端常用打包工具官方文档"
+        },
+        {
+          "title": "uiverse",
+          "url": "https://uiverse.io/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "一个好看的UI库，可在线复制代码包括React,Vue等框架代码"
+        },
+        {
+          "title": "CopyCoder",
+          "url": "https://copycoder.ai/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "cursor最佳辅助工具，可以上传图片，生成提示词让cursor编码，但是收费比较贵。。。"
+        },
+        {
+          "title": "CSS可视化",
+          "url": "https://css.bqrdh.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "在线调整样式生成可复制代码的平台"
+        },
+        {
+          "title": "US.KG",
+          "url": "https://nic.us.kg/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "免费域名申请，每半年手动续费一次"
         }
       ]
     },
     {
-      "name": "导航与工具",
-      "en_name": "Navigation & Tools",
+      "name": "导航网站",
+      "en_name": "Navigation",
       "icon": "linecons-doc",
       "web": [
         {
@@ -161,7 +173,7 @@
           "url": "https://adzhp.cc/",
           "logo": "assets/images/logos/8001egggmd0selsliqvqgq9zjs4fce.png",
           "title": "艾达杂货铺",
-          "desc": "综合网站导航"
+          "desc": "综合网站导航，资源比较全面，可以查找各种视频，文档，软件"
         },
         {
           "url": "https://10beasts.net/recommend/",
@@ -170,34 +182,76 @@
           "desc": "墙的那边真的是敌人么？"
         },
         {
-          "url": "http://shuxiangjia.cn/#",
-          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-          "title": "书享家",
-          "desc": ""
-        },
-        {
           "url": "https://www.xue8nav.com/",
           "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
           "title": "学吧导航",
-          "desc": ""
-        },
-        {
-          "url": "https://chrome.zzzmh.cn/index#index",
-          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-          "title": "极简插件",
-          "desc": ""
+          "desc": "各类学习资料的导航网站"
         },
         {
           "title": "饭太硬",
           "url": "https://www.xn--sss604efuw.com/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "一个资源导航网站"
+          "desc": "一个影视资源导航网站"
         },
         {
-          "title": "perplexity",
-          "url": "https://www.perplexity.ai/",
+          "title": "AI工具集",
+          "url": "https://ai-bot.cn/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "AI 搜索"
+          "desc": "一个集合了各种AI工具的导航网站"
+        },
+        {
+          "title": "书栈网",
+          "url": "https://www.bookstack.cn/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "一个程序员的导航网站"
+        },
+        {
+          "title": "考拉导航",
+          "url": "https://www.kaolamedia.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "新媒体导航"
+        },
+        {
+          "title": " 搜图导航",
+          "url": "https://www.91sotu.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "各类图片网站"
+        },
+        {
+          "title": "Seeseed",
+          "url": "https://www.seeseed.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "设计师导航"
+        },
+        {
+          "title": "虫部落快搜",
+          "url": "https://search.chongbuluo.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "各种搜索引擎导航"
+        },
+        {
+          "title": "产品经理导航",
+          "url": "https://www.pmbaobao.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "产品经理导航"
+        },
+        {
+          "title": "创造狮",
+          "url": "https://chuangzaoshi.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "创造狮导航"
+        },
+        {
+          "title": "FUUN",
+          "url": "https://fuun.fun/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "奇趣网站收集"
+        },
+        {
+          "title": "AboutPPT",
+          "url": "https://www.aboutppt.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "PPT导航网站"
         }
       ]
     },
@@ -253,6 +307,48 @@
           "url": "https://tempmail.plus/zh/#!",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "临时邮箱"
+        },
+        {
+          "title": "极简插件",
+          "url": "https://chrome.zzzmh.cn/index",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "chrome内核浏览器插件网站"
+        },
+        {
+          "title": "Perplexity",
+          "url": "https://www.perplexity.ai/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "AI搜索"
+        },
+        {
+          "title": "Flowith.io",
+          "url": "https://flowith.io/blank",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "AI知识库，可以构建关系图谱"
+        },
+        {
+          "title": "Morphic",
+          "url": "https://www.morphic.sh/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "Perplexity平替"
+        },
+        {
+          "title": "一个工具箱",
+          "url": "http://www.atoolbox.net/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "提供各类在线小工具"
+        },
+        {
+          "title": "lalal",
+          "url": "https://www.lalal.ai/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "视频音频提取"
+        },
+        {
+          "title": "tosound",
+          "url": "https://www.tosound.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "声音搜索"
         }
       ]
     },
@@ -277,12 +373,6 @@
           "url": "https://www.hippter.com/",
           "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
           "title": "HiPPTER | PPT资源导航",
-          "desc": ""
-        },
-        {
-          "url": "https://neumorphism.io/#e0e0e0",
-          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-          "title": "Neumorphism.io - Neumorphism/Soft UI CSS shadow generator",
           "desc": ""
         }
       ]
@@ -309,6 +399,12 @@
           "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
           "title": "算法笔记",
           "desc": ""
+        },
+        {
+          "title": "熊猫搜书",
+          "url": "https://xmsoushu.com/#/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "聚合了各种电子书网站，可以查找各类电子书"
         }
       ]
     },
@@ -321,13 +417,13 @@
           "url": "https://www.huobi.ms/zh-cn/",
           "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
           "title": "火币网",
-          "desc": ""
+          "desc": "一个数字货币交易的平台"
         },
         {
           "url": "https://xslist.org/zh",
           "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
           "title": "xslist",
-          "desc": ""
+          "desc": "可以搜索各个老师的信息"
         },
         {
           "url": "https://tineye.com/",
@@ -340,6 +436,18 @@
           "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
           "title": "porn best",
           "desc": "18+导航网站"
+        },
+        {
+          "title": "谛都店铺",
+          "url": "https://store.didushan.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "提供各种海外帐户交易"
+        },
+        {
+          "title": "Trace",
+          "url": "https://trace.moe/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "又一个以图搜图的网站"
         }
       ]
     },
@@ -358,13 +466,13 @@
           "url": "https://narcissus-ma.github.io/low-code-platform/#/",
           "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
           "title": "低代码平台",
-          "desc": "后端开发中。。。"
+          "desc": "服务器开发中。。。"
         },
         {
           "url": "https://narcissus-ma.github.io/narcissus-hooks/",
           "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
           "title": "自定义Hooks",
-          "desc": ""
+          "desc": "收集工作中遇到或其它项目中好用的自定义hooks"
         },
         {
           "url": "https://narcissus-ma.github.io/nm-spec/",

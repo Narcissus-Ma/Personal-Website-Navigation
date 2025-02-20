@@ -250,9 +250,30 @@
                   </thead>
                   <tbody>
                     <tr v-for="(site, siteIndex) in category.web" :key="siteIndex">
-                      <td>{{ site.title }}</td>
-                      <td>{{ site.url }}</td>
-                      <td>{{ site.desc }}</td>
+                      <td>
+                        <template v-if="editingSite && editingSite.categoryIndex === categoryIndex && editingSite.siteIndex === siteIndex">
+                          <input type="text" v-model="editingSite.data.title" class="form-control input-sm">
+                        </template>
+                        <template v-else>
+                          {{ site.title }}
+                        </template>
+                      </td>
+                      <td>
+                        <template v-if="editingSite && editingSite.categoryIndex === categoryIndex && editingSite.siteIndex === siteIndex">
+                          <input type="url" v-model="editingSite.data.url" class="form-control input-sm">
+                        </template>
+                        <template v-else>
+                          {{ site.url }}
+                        </template>
+                      </td>
+                      <td>
+                        <template v-if="editingSite && editingSite.categoryIndex === categoryIndex && editingSite.siteIndex === siteIndex">
+                          <input type="text" v-model="editingSite.data.desc" class="form-control input-sm">
+                        </template>
+                        <template v-else>
+                          {{ site.desc }}
+                        </template>
+                      </td>
                       <td>
                         <select class="form-control input-sm" 
                                 @change="moveWebsite(categoryIndex, siteIndex, $event.target.value)"
@@ -266,10 +287,24 @@
                         </select>
                       </td>
                       <td>
-                        <button class="btn btn-danger btn-sm" 
-                                @click="deleteSite(categoryIndex, siteIndex)">
-                          删除
-                        </button>
+                        <template v-if="editingSite && editingSite.categoryIndex === categoryIndex && editingSite.siteIndex === siteIndex">
+                          <button class="btn btn-success btn-sm" @click="saveSiteEdit()">
+                            保存
+                          </button>
+                          <button class="btn btn-default btn-sm" @click="cancelSiteEdit()">
+                            取消
+                          </button>
+                        </template>
+                        <template v-else>
+                          <button class="btn btn-primary btn-sm" 
+                                  @click="editSite(categoryIndex, siteIndex)">
+                            编辑
+                          </button>
+                          <button class="btn btn-danger btn-sm" 
+                                  @click="deleteSite(categoryIndex, siteIndex)">
+                            删除
+                          </button>
+                        </template>
                       </td>
                     </tr>
                   </tbody>
@@ -322,7 +357,8 @@ export default {
       categories,
       searchEngines,
       defaultEngine: 0,
-      editingCategory: null, // Track which category is being edited
+      editingCategory: null,
+      editingSite: null,
       categoryForm: {
         name: '',
         en_name: '',
@@ -499,6 +535,43 @@ export default {
       this.categories[fromCategoryIndex].web.splice(siteIndex, 1);
       this.categories[toCategoryIndex].web.push(site);
       this.saveToFile();
+    },
+
+    editSite(categoryIndex, siteIndex) {
+      const site = this.categories[categoryIndex].web[siteIndex];
+      this.editingSite = {
+        categoryIndex,
+        siteIndex,
+        data: {
+          title: site.title,
+          url: site.url,
+          desc: site.desc,
+          logo: site.logo
+        }
+      };
+    },
+
+    saveSiteEdit() {
+      if (!this.editingSite) return;
+      
+      const { categoryIndex, siteIndex, data } = this.editingSite;
+      const site = this.categories[categoryIndex].web[siteIndex];
+      
+      // Update the site data
+      site.title = data.title;
+      site.url = data.url;
+      site.desc = data.desc;
+      site.logo = data.logo;
+      
+      // Save changes
+      this.saveToFile();
+      
+      // Clear editing state
+      this.editingSite = null;
+    },
+
+    cancelSiteEdit() {
+      this.editingSite = null;
     }
   }
 }
@@ -593,5 +666,20 @@ export default {
   white-space: normal;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+/* Edit mode input styles */
+.table .input-sm {
+  height: 30px;
+  padding: 5px 8px;
+}
+
+.table td .form-control {
+  width: 100%;
+}
+
+/* Adjust button spacing in edit mode */
+.table td .btn + .btn {
+  margin-left: 5px;
 }
 </style> 
