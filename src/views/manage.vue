@@ -241,6 +241,7 @@
                 <table class="table">
                   <thead>
                     <tr>
+                      <th>Logo</th>
                       <th>网站名称</th>
                       <th>链接</th>
                       <th>描述</th>
@@ -250,6 +251,15 @@
                   </thead>
                   <tbody>
                     <tr v-for="(site, siteIndex) in category.web" :key="siteIndex">
+                      <td>
+                        <template v-if="editingSite && editingSite.categoryIndex === categoryIndex && editingSite.siteIndex === siteIndex">
+                          <input type="url" v-model="editingSite.data.logo" class="form-control input-sm" placeholder="Logo URL">
+                          <img :src="editingSite.data.logo" alt="Preview" class="logo-preview" @error="handleLogoError">
+                        </template>
+                        <template v-else>
+                          <img :src="site.logo" :alt="site.title" class="site-logo" @error="handleLogoError">
+                        </template>
+                      </td>
                       <td>
                         <template v-if="editingSite && editingSite.categoryIndex === categoryIndex && editingSite.siteIndex === siteIndex">
                           <input type="text" v-model="editingSite.data.title" class="form-control input-sm">
@@ -546,7 +556,7 @@ export default {
           title: site.title,
           url: site.url,
           desc: site.desc,
-          logo: site.logo
+          logo: site.logo || 'https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b'
         }
       };
     },
@@ -572,6 +582,11 @@ export default {
 
     cancelSiteEdit() {
       this.editingSite = null;
+    },
+
+    handleLogoError(event) {
+      // Set a default logo when image fails to load
+      event.target.src = 'https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b';
     }
   }
 }
@@ -612,26 +627,31 @@ export default {
 /* Fixed column widths for website list tables */
 .table th:nth-child(1),
 .table td:nth-child(1) {
-  width: 20%;  /* Website Name */
+  width: 10%;  /* Logo */
 }
 
 .table th:nth-child(2),
 .table td:nth-child(2) {
-  width: 25%;  /* Link */
+  width: 15%;  /* Website Name */
 }
 
 .table th:nth-child(3),
 .table td:nth-child(3) {
-  width: 25%;  /* Description */
+  width: 25%;  /* Link */
 }
 
 .table th:nth-child(4),
 .table td:nth-child(4) {
-  width: 15%;  /* Move to Category */
+  width: 20%;  /* Description */
 }
 
 .table th:nth-child(5),
 .table td:nth-child(5) {
+  width: 15%;  /* Move to Category */
+}
+
+.table th:nth-child(6),
+.table td:nth-child(6) {
   width: 15%;  /* Operation */
   text-align: center;
 }
@@ -681,5 +701,22 @@ export default {
 /* Adjust button spacing in edit mode */
 .table td .btn + .btn {
   margin-left: 5px;
+}
+
+/* Logo styles */
+.site-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.logo-preview {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: 4px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
 }
 </style> 

@@ -40,6 +40,18 @@
           "logo": "assets/images/logos/msedge_8PM2OKqf16.png",
           "title": "Gmail",
           "desc": "谷歌邮箱"
+        },
+        {
+          "title": "QQ邮箱",
+          "url": "https://mail.qq.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": ""
+        },
+        {
+          "title": "临时邮箱",
+          "url": "https://tempmail.plus/zh/#!",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "临时邮箱"
         }
       ]
     },
@@ -303,12 +315,6 @@
           "desc": ""
         },
         {
-          "title": "临时邮箱",
-          "url": "https://tempmail.plus/zh/#!",
-          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "临时邮箱"
-        },
-        {
           "title": "极简插件",
           "url": "https://chrome.zzzmh.cn/index",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
@@ -548,7 +554,7 @@
           "desc": "个人图床，图片上传，电报接口已失效"
         }
       ]
-    }  
+    }
   ],
   "searchEngines": [
     {
