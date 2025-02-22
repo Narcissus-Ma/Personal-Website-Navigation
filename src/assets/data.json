@@ -170,6 +170,12 @@
           "desc": "赛博活佛"
         },
         {
+          "title": "Vercel",
+          "url": "https://vercel.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "静态资源拖管，severless容器网站"
+        },
+        {
           "url": "https://chatgpt.com/",
           "logo": "assets/images/logos/icon-1hq2ot5184cu8838f9x34sdyzdy.png",
           "title": "ChatGPT",
@@ -182,40 +188,22 @@
           "desc": "AI界的拼多多，DeepSeek是一个基于GPT-3的搜索引擎，它可以回答您的问题，提供有关任何主题的详细信息，并帮助您发现新的内容。"
         },
         {
+          "title": "通义千问",
+          "url": "https://chat.qwenlm.ai/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "可以文生图的大模型"
+        },
+        {
           "url": "https://platform.deepseek.com/",
           "logo": "assets/images/logos/msedge_fTVUSPJt0U.png",
           "title": "DeepSeek API接口",
           "desc": "API　keys 入口"
         },
         {
-          "url": "https://zh-hans.reactjs.org/",
-          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-          "title": "React",
-          "desc": "react官方文档"
-        },
-        {
-          "title": "linux do",
-          "url": "https://linux.do/",
-          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "一个程序员的开源讨论社区"
-        },
-        {
           "title": "OpenRouter",
           "url": "https://openrouter.ai/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "大模型路由，国内可访问，聚合了许多大模型"
-        },
-        {
-          "title": " Github Proxy",
-          "url": "https://ghfast.top/",
-          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "github代理加速下载"
-        },
-        {
-          "title": "Dribbble",
-          "url": "https://dribbble.com/",
-          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "网页设计素材网站"
         },
         {
           "title": "Vue",
@@ -230,10 +218,34 @@
           "desc": "新一代前端构建打包工具"
         },
         {
+          "url": "https://zh-hans.reactjs.org/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "React",
+          "desc": "react官方文档"
+        },
+        {
           "title": "Webpack",
           "url": "https://www.webpackjs.com/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "前端常用打包工具官方文档"
+        },
+        {
+          "title": "linux do",
+          "url": "https://linux.do/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "一个程序员的开源讨论社区"
+        },
+        {
+          "title": " Github Proxy",
+          "url": "https://ghfast.top/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "github代理加速下载"
+        },
+        {
+          "title": "Dribbble",
+          "url": "https://dribbble.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "网页设计素材网站"
         },
         {
           "title": "uiverse",
@@ -258,12 +270,6 @@
           "url": "https://nic.us.kg/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "免费域名申请，每半年手动续费一次"
-        },
-        {
-          "title": "通义千问",
-          "url": "https://chat.qwenlm.ai/",
-          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "可以文生图的大模型"
         }
       ]
     },
