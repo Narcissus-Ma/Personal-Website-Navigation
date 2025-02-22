@@ -112,7 +112,16 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr v-for="(category, index) in categories" :key="index">
+                  <tr v-for="(category, index) in categories" 
+                      :key="index"
+                      draggable="true"
+                      @dragstart="handleCategoryDragStart($event, index)"
+                      @dragover.prevent
+                      @dragenter.prevent="handleCategoryDragEnter($event, index)"
+                      @dragleave="handleCategoryDragLeave"
+                      @drop="handleCategoryDrop($event, index)"
+                      @dragend="handleCategoryDragEnd"
+                      :class="{ 'drag-over': isCategoryDragOver && dragTargetIndex === index }">
                     <td><i :class="category.icon"></i></td>
                     <td>
                       <div v-if="editingCategory === index">
@@ -250,7 +259,14 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr v-for="(site, siteIndex) in category.web" :key="siteIndex">
+                    <tr v-for="(site, siteIndex) in category.web" 
+                        :key="siteIndex"
+                        draggable="true"
+                        @dragstart="handleDragStart($event, categoryIndex, siteIndex)"
+                        @dragover.prevent
+                        @dragenter.prevent
+                        @drop="handleDrop($event, categoryIndex, siteIndex)"
+                        :class="{ 'drag-over': isDragOver && dragTarget.categoryIndex === categoryIndex && dragTarget.siteIndex === siteIndex }">
                       <td>
                         <template v-if="editingSite && editingSite.categoryIndex === categoryIndex && editingSite.siteIndex === siteIndex">
                           <input type="url" v-model="editingSite.data.logo" class="form-control input-sm" placeholder="Logo URL">
@@ -385,7 +401,20 @@ export default {
         name: '',
         icon: '',
         url: ''
-      }
+      },
+      isDragging: false,
+      isDragOver: false,
+      dragSource: {
+        categoryIndex: null,
+        siteIndex: null
+      },
+      dragTarget: {
+        categoryIndex: null,
+        siteIndex: null
+      },
+      isCategoryDragOver: false,
+      dragSourceIndex: null,
+      dragTargetIndex: null
     }
   },
   methods: {
@@ -587,6 +616,102 @@ export default {
     handleLogoError(event) {
       // Set a default logo when image fails to load
       event.target.src = 'https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b';
+    },
+
+    handleDragStart(event, categoryIndex, siteIndex) {
+      this.isDragging = true;
+      this.dragSource = { categoryIndex, siteIndex };
+      event.dataTransfer.effectAllowed = 'move';
+      // Add a subtle transparency to the dragged element
+      event.target.style.opacity = '0.5';
+    },
+
+    handleDrop(event, categoryIndex, siteIndex) {
+      event.preventDefault();
+      this.isDragOver = false;
+      
+      // Get the source and target positions
+      const sourceCategory = this.categories[this.dragSource.categoryIndex];
+      const targetCategory = this.categories[categoryIndex];
+      
+      // Get the website being moved
+      const website = sourceCategory.web[this.dragSource.siteIndex];
+      
+      // Remove from the original position
+      sourceCategory.web.splice(this.dragSource.siteIndex, 1);
+      
+      // Add to the new position
+      targetCategory.web.splice(siteIndex, 0, website);
+      
+      // Save the changes
+      this.saveToFile();
+      
+      // Reset drag state
+      this.isDragging = false;
+      event.target.style.opacity = '1';
+    },
+
+    handleDragEnd(event) {
+      // Reset the opacity
+      event.target.style.opacity = '1';
+      this.isDragging = false;
+      this.isDragOver = false;
+    },
+
+    handleDragEnter(event, categoryIndex, siteIndex) {
+      this.isDragOver = true;
+      this.dragTarget = { categoryIndex, siteIndex };
+    },
+
+    handleDragLeave() {
+      this.isDragOver = false;
+    },
+
+    handleCategoryDragStart(event, index) {
+      this.dragSourceIndex = index;
+      event.dataTransfer.effectAllowed = 'move';
+      event.target.style.opacity = '0.5';
+    },
+
+    handleCategoryDragEnter(event, index) {
+      if (index !== this.dragSourceIndex) {
+        this.isCategoryDragOver = true;
+        this.dragTargetIndex = index;
+      }
+    },
+
+    handleCategoryDragLeave() {
+      this.isCategoryDragOver = false;
+    },
+
+    handleCategoryDragEnd(event) {
+      event.target.style.opacity = '1';
+      this.isCategoryDragOver = false;
+      this.dragSourceIndex = null;
+      this.dragTargetIndex = null;
+    },
+
+    handleCategoryDrop(event, index) {
+      event.preventDefault();
+      
+      if (index === this.dragSourceIndex) return;
+      
+      // Get the category being moved
+      const categoryToMove = this.categories[this.dragSourceIndex];
+      
+      // Remove from original position
+      this.categories.splice(this.dragSourceIndex, 1);
+      
+      // Add to new position
+      this.categories.splice(index, 0, categoryToMove);
+      
+      // Reset states
+      this.isCategoryDragOver = false;
+      this.dragSourceIndex = null;
+      this.dragTargetIndex = null;
+      
+      // Save changes
+      this.saveToFile();
     }
   }
 }
@@ -718,5 +843,107 @@ export default {
   border-radius: 4px;
   margin-top: 5px;
   border: 1px solid #ddd;
+}
+
+/* Drag and drop styles */
+.drag-over {
+  border: 2px dashed #3498db !important;
+  background-color: rgba(52, 152, 219, 0.1);
+}
+
+tr[draggable="true"] {
+  cursor: move;
+  transition: all 0.2s ease;
+}
+
+tr[draggable="true"]:hover {
+  background-color: rgba(52, 152, 219, 0.05);
+}
+
+tr[draggable="true"].dragging {
+  opacity: 0.5;
+  background-color: rgba(52, 152, 219, 0.1);
+}
+
+/* Add visual cue for draggable rows */
+tr[draggable="true"] td:first-child::before {
+  content: '⋮⋮';
+  margin-right: 8px;
+  color: #999;
+  cursor: move;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+/* Improve visual feedback during drag */
+.table tbody tr:hover {
+  background-color: rgba(52, 152, 219, 0.05);
+}
+
+.table tbody tr.drag-over td {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Category drag and drop styles */
+.category-drag-handle {
+  cursor: move;
+  padding: 0 5px;
+  color: #999;
+}
+
+/* Enhance drag visual feedback */
+tr[draggable="true"] {
+  cursor: move;
+  user-select: none;
+}
+
+tr[draggable="true"] td:first-child {
+  position: relative;
+}
+
+tr[draggable="true"] td:first-child::before {
+  content: '⋮⋮';
+  position: absolute;
+  left: -20px;
+  color: #999;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+tr[draggable="true"]:hover td:first-child::before {
+  opacity: 1;
+}
+
+.drag-over td {
+  border-top: 2px solid #3498db;
+  border-bottom: 2px solid #3498db;
+}
+
+.drag-over td:first-child {
+  border-left: 2px solid #3498db;
+}
+
+.drag-over td:last-child {
+  border-right: 2px solid #3498db;
+}
+
+/* Improve drag feedback */
+tr.drag-over {
+  background-color: rgba(52, 152, 219, 0.1);
+}
+
+tr[draggable="true"]:hover {
+  background-color: rgba(52, 152, 219, 0.05);
+}
+
+/* Animation for drag and drop */
+tr {
+  transition: all 0.2s ease;
+}
+
+tr.drag-over td {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 </style> 

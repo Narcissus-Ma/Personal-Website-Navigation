@@ -56,6 +56,97 @@
       ]
     },
     {
+      "name": "导航网站",
+      "en_name": "Navigation",
+      "icon": "linecons-doc",
+      "web": [
+        {
+          "url": "https://adzhp.cc/",
+          "logo": "assets/images/logos/8001egggmd0selsliqvqgq9zjs4fce.png",
+          "title": "艾达杂货铺",
+          "desc": "综合网站导航，资源比较全面，可以查找各种视频，文档，软件"
+        },
+        {
+          "url": "https://www.xue8nav.com/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "学吧导航",
+          "desc": "各类学习资料的导航网站"
+        },
+        {
+          "title": "AI工具集",
+          "url": "https://ai-bot.cn/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "一个集合了各种AI工具的导航网站"
+        },
+        {
+          "title": "书栈网",
+          "url": "https://www.bookstack.cn/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "一个程序员的导航网站"
+        },
+        {
+          "title": "考拉导航",
+          "url": "https://www.kaolamedia.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "新媒体导航"
+        },
+        {
+          "title": " 搜图导航",
+          "url": "https://www.91sotu.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "各类图片网站"
+        },
+        {
+          "title": "Seeseed",
+          "url": "https://www.seeseed.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "设计师导航"
+        },
+        {
+          "title": "虫部落快搜",
+          "url": "https://search.chongbuluo.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "各种搜索引擎导航"
+        },
+        {
+          "title": "产品经理导航",
+          "url": "https://www.pmbaobao.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "产品经理导航"
+        },
+        {
+          "title": "创造狮",
+          "url": "https://chuangzaoshi.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "创造狮导航"
+        },
+        {
+          "title": "FUUN",
+          "url": "https://fuun.fun/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "奇趣网站收集"
+        },
+        {
+          "title": "AboutPPT",
+          "url": "https://www.aboutppt.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "PPT导航网站"
+        },
+        {
+          "url": "https://tophub.today/",
+          "logo": "assets/images/logos/8001dnn7bqi31k0v61hmakt7e6stfo.png",
+          "title": "今日热榜",
+          "desc": "国内各平台资讯聚合"
+        },
+        {
+          "title": "饭太硬",
+          "url": "https://www.xn--sss604efuw.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "一个影视资源导航网站"
+        }
+      ]
+    },
+    {
       "name": "开发与技术",
       "en_name": "Development & Technology",
       "icon": "linecons-cog",
@@ -167,103 +258,12 @@
           "url": "https://nic.us.kg/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "免费域名申请，每半年手动续费一次"
-        }
-      ]
-    },
-    {
-      "name": "导航网站",
-      "en_name": "Navigation",
-      "icon": "linecons-doc",
-      "web": [
-        {
-          "url": "https://tophub.today/",
-          "logo": "assets/images/logos/8001dnn7bqi31k0v61hmakt7e6stfo.png",
-          "title": "今日热榜",
-          "desc": "国内各平台资讯聚合"
         },
         {
-          "url": "https://adzhp.cc/",
-          "logo": "assets/images/logos/8001egggmd0selsliqvqgq9zjs4fce.png",
-          "title": "艾达杂货铺",
-          "desc": "综合网站导航，资源比较全面，可以查找各种视频，文档，软件"
-        },
-        {
-          "url": "https://10beasts.net/recommend/",
-          "logo": "assets/images/logos/8001egggmd0selsliqvqgq9zjs4fce.png",
-          "title": "进击的巨人",
-          "desc": "墙的那边真的是敌人么？"
-        },
-        {
-          "url": "https://www.xue8nav.com/",
-          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-          "title": "学吧导航",
-          "desc": "各类学习资料的导航网站"
-        },
-        {
-          "title": "饭太硬",
-          "url": "https://www.xn--sss604efuw.com/",
+          "title": "通义千问",
+          "url": "https://chat.qwenlm.ai/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "一个影视资源导航网站"
-        },
-        {
-          "title": "AI工具集",
-          "url": "https://ai-bot.cn/",
-          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "一个集合了各种AI工具的导航网站"
-        },
-        {
-          "title": "书栈网",
-          "url": "https://www.bookstack.cn/",
-          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "一个程序员的导航网站"
-        },
-        {
-          "title": "考拉导航",
-          "url": "https://www.kaolamedia.com/",
-          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "新媒体导航"
-        },
-        {
-          "title": " 搜图导航",
-          "url": "https://www.91sotu.com/",
-          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "各类图片网站"
-        },
-        {
-          "title": "Seeseed",
-          "url": "https://www.seeseed.com/",
-          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "设计师导航"
-        },
-        {
-          "title": "虫部落快搜",
-          "url": "https://search.chongbuluo.com/",
-          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "各种搜索引擎导航"
-        },
-        {
-          "title": "产品经理导航",
-          "url": "https://www.pmbaobao.com/",
-          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "产品经理导航"
-        },
-        {
-          "title": "创造狮",
-          "url": "https://chuangzaoshi.com/",
-          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "创造狮导航"
-        },
-        {
-          "title": "FUUN",
-          "url": "https://fuun.fun/",
-          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "奇趣网站收集"
-        },
-        {
-          "title": "AboutPPT",
-          "url": "https://www.aboutppt.com/",
-          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "PPT导航网站"
+          "desc": "可以文生图的大模型"
         }
       ]
     },
@@ -303,6 +303,12 @@
           "desc": "免费聚合图床"
         },
         {
+          "title": "图壳",
+          "url": "https://imgkr.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "又一款免费的第三方图床"
+        },
+        {
           "url": "https://bz.zzzmh.cn/index",
           "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
           "title": "极简壁纸",
@@ -313,6 +319,18 @@
           "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
           "title": "文件格式转换工具",
           "desc": ""
+        },
+        {
+          "title": "一个工具箱",
+          "url": "http://www.atoolbox.net/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "提供各类在线小工具"
+        },
+        {
+          "title": "lalal",
+          "url": "https://www.lalal.ai/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "视频音频提取"
         },
         {
           "title": "极简插件",
@@ -337,18 +355,6 @@
           "url": "https://www.morphic.sh/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "Perplexity平替"
-        },
-        {
-          "title": "一个工具箱",
-          "url": "http://www.atoolbox.net/",
-          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "提供各类在线小工具"
-        },
-        {
-          "title": "lalal",
-          "url": "https://www.lalal.ai/",
-          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "视频音频提取"
         },
         {
           "title": "tosound",
@@ -469,10 +475,16 @@
       "icon": "linecons-heart",
       "web": [
         {
-          "url": "https://www.huobi.ms/zh-cn/",
+          "url": "https://10beasts.net/recommend/",
+          "logo": "assets/images/logos/8001egggmd0selsliqvqgq9zjs4fce.png",
+          "title": "进击的巨人",
+          "desc": "墙的那边真的是敌人么？"
+        },
+        {
+          "url": "https://thepornbest.com/",
           "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-          "title": "火币网",
-          "desc": "一个数字货币交易的平台"
+          "title": "porn best",
+          "desc": "18+导航网站"
         },
         {
           "url": "https://xslist.org/zh",
@@ -487,10 +499,10 @@
           "desc": "反向图片搜索引擎"
         },
         {
-          "url": "https://thepornbest.com/",
-          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-          "title": "porn best",
-          "desc": "18+导航网站"
+          "title": "Trace",
+          "url": "https://trace.moe/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "又一个以图搜图的网站"
         },
         {
           "title": "谛都店铺",
@@ -499,10 +511,10 @@
           "desc": "提供各种海外帐户交易"
         },
         {
-          "title": "Trace",
-          "url": "https://trace.moe/",
-          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "又一个以图搜图的网站"
+          "url": "https://www.huobi.ms/zh-cn/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "火币网",
+          "desc": "一个数字货币交易的平台"
         }
       ]
     },
@@ -516,6 +528,12 @@
           "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
           "title": "个人博客",
           "desc": "技术博客，个人生活，随笔，学习笔记"
+        },
+        {
+          "url": "https://resume.narcissus2ma.us.kg/",
+          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
+          "title": "个人简历网站",
+          "desc": "关于我，个人简历，技能，项目经验，提供下载简历功能"
         },
         {
           "url": "https://narcissus-ma.github.io/low-code-platform/#/",
@@ -534,12 +552,6 @@
           "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
           "title": "前端编码规范工程化",
           "desc": ", 尝试整合一些项目搭建，打包，部署的资源操作"
-        },
-        {
-          "url": "https://resume.narcissus2ma.us.kg/",
-          "logo": "assets/images/logos/8001ddf6senta7f19vu3tc3any209z.png",
-          "title": "个人简历网站",
-          "desc": "关于我，个人简历，技能，项目经验，提供下载简历功能"
         },
         {
           "url": "https://img.liyifei.us.kg/",
