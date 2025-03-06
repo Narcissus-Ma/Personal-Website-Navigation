@@ -207,7 +207,7 @@
         },
         {
           "title": "通义千问",
-          "url": "https://chat.qwenlm.ai/",
+          "url": "https://chat.qwen.ai/",
           "logo": "https://img1.tucang.cc/api/image/show/77451257254f3851ce36fc23f98c8c70",
           "desc": "可以文生图的大模型"
         },
@@ -294,6 +294,12 @@
           "url": "https://scrape.center/",
           "logo": "https://img1.tucang.cc/api/image/show/77451257254f3851ce36fc23f98c8c70",
           "desc": "Python爬虫案例"
+        },
+        {
+          "title": "Speedtest",
+          "url": "https://www.speedtest.net/",
+          "logo": "https://img1.tucang.cc/api/image/show/77451257254f3851ce36fc23f98c8c70",
+          "desc": "网络测速"
         }
       ]
     },
