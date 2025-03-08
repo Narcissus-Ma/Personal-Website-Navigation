@@ -37,7 +37,7 @@ A modern website navigation platform built with Vue.js, featuring a clean and re
 
 Before you begin, ensure you have the following installed:
 - Node.js (v12.0 or higher)
-- Yarn package manager
+- pnpm package manager
 - A modern web browser
 
 ## Project Setup
@@ -50,12 +50,12 @@ cd WebStack-vue
 
 2. Install dependencies:
 ```bash
-yarn install
+pnpm install
 ```
 
 3. Start the development server:
 ```bash
-yarn serve
+pnpm serve
 ```
 
 4. Start the backend server (in a separate terminal):
@@ -70,7 +70,7 @@ The application will be available at `http://localhost:8080`
 To build the project for production:
 
 ```bash
-yarn build
+pnpm build
 ```
 
 The built files will be in the `dist` directory.
