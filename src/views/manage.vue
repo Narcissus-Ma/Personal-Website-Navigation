@@ -114,7 +114,7 @@
                 <tbody>
                   <tr v-for="(category, index) in categories" 
                       :key="index"
-                      draggable="true"
+                      :draggable="editingCategory !== index"
                       @dragstart="handleCategoryDragStart($event, index)"
                       @dragover.prevent
                       @dragenter.prevent="handleCategoryDragEnter($event, index)"
@@ -261,7 +261,7 @@
                   <tbody>
                     <tr v-for="(site, siteIndex) in category.web" 
                         :key="siteIndex"
-                        draggable="true"
+                        :draggable="!(editingSite && editingSite.categoryIndex === categoryIndex && editingSite.siteIndex === siteIndex)"
                         @dragstart="handleDragStart($event, categoryIndex, siteIndex)"
                         @dragover.prevent
                         @dragenter.prevent
