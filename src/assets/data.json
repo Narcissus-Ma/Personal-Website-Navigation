@@ -84,12 +84,6 @@
           "desc": "韩剧在线网站"
         },
         {
-          "title": "free-for-dev",
-          "url": "https://free-for.dev/#/",
-          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
-          "desc": "免费开发者资源"
-        },
-        {
           "title": "米兔音乐",
           "url": "https://www.qqmp3.vip/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
@@ -450,6 +444,12 @@
           "url": "https://aixdownloader.com/zh/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "从任何网页获取你想要的内容"
+        },
+        {
+          "title": "free-for-dev",
+          "url": "https://free-for.dev/#/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "免费开发者资源"
         }
       ]
     },
