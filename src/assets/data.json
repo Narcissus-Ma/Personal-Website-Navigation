@@ -88,6 +88,18 @@
           "url": "https://free-for.dev/#/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "免费开发者资源"
+        },
+        {
+          "title": "米兔音乐",
+          "url": "https://www.qqmp3.vip/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "免费在线听歌下载资源"
+        },
+        {
+          "title": "包子漫画",
+          "url": "https://www.baozimh.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "在线看漫画网站，无广告"
         }
       ]
     },
@@ -96,6 +108,12 @@
       "en_name": "Navigation",
       "icon": "linecons-doc",
       "web": [
+        {
+          "title": "FMHY",
+          "url": "https://fmhy.net/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "免费资源聚合网站"
+        },
         {
           "url": "https://adzhp.cc/",
           "logo": "assets/images/logos/8001egggmd0selsliqvqgq9zjs4fce.png",
@@ -221,6 +239,12 @@
           "url": "https://app-58x0c4f2kq9u.appmiaoda.com/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "田同学工具箱"
+        },
+        {
+          "title": "书签地球",
+          "url": "https://www.bookmarkearth.cn/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "也算是一类导航网站吧"
         }
       ]
     },
@@ -408,6 +432,24 @@
           "url": "https://ant.design/index-cn",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "国内常用的前端React UI组件库"
+        },
+        {
+          "title": "Vue.js挑战",
+          "url": "https://cn-vuejs-challenges.netlify.app/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "Vue.js在线学习"
+        },
+        {
+          "title": "it-tools",
+          "url": "https://it-tools.tech/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "免费开发工具合集"
+        },
+        {
+          "title": "Aixdownloader",
+          "url": "https://aixdownloader.com/zh/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "从任何网页获取你想要的内容"
         }
       ]
     },
@@ -547,6 +589,36 @@
           "url": "https://panyq.com/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "网盘资源搜索"
+        },
+        {
+          "title": "freecompress",
+          "url": "https://freecompress.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "无需登陆，在线压缩各类资源"
+        },
+        {
+          "title": "goblin tools",
+          "url": "https://goblin.tools/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "goblin tools"
+        },
+        {
+          "title": "MikuTools",
+          "url": "https://okmiku.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "又一款工具箱"
+        },
+        {
+          "title": "File Unzip",
+          "url": "https://www.fileunzip.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "在线解压缩网站"
+        },
+        {
+          "title": "Tinywow",
+          "url": "https://tinywow.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "工具箱"
         }
       ]
     },
@@ -590,6 +662,12 @@
           "url": "https://www.ypppt.com/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "PPT模版免费下载"
+        },
+        {
+          "title": "docsmall",
+          "url": "https://docsmall.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "在线图片处理"
         }
       ]
     },
@@ -633,6 +711,18 @@
           "url": "https://zh.khanacademy.org/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "可汗学院是一家非营利性组织，其使命是为任何地方的任何人提供免费的世界一流的教育"
+        },
+        {
+          "title": "PhET",
+          "url": "https://phet.colorado.edu/zh_CN/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "通过互动游戏学习知识的网站"
+        },
+        {
+          "title": "SaltyLeo",
+          "url": "https://tstrs.me/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "免费电子书资源"
         }
       ]
     },
@@ -676,6 +766,30 @@
           "url": "https://bbs.3dmgame.com/thread-5978938-1-2.html",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "知名游戏论坛"
+        },
+        {
+          "title": "Emu Games",
+          "url": "https://www.emugames.net/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "国外游戏ROM网站"
+        },
+        {
+          "title": "GameFree资源网",
+          "url": "https://www.gamefreer.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "免费游戏资源"
+        },
+        {
+          "title": "在线玩模拟器游戏",
+          "url": "https://www.emu666.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "在线玩模拟器游戏"
+        },
+        {
+          "title": "Poki",
+          "url": "https://poki.com/zh",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "在线小游戏"
         }
       ]
     },
@@ -792,6 +906,56 @@
           "logo": "https://img1.tucang.cc/api/image/show/77451257254f3851ce36fc23f98c8c70",
           "title": "图床2",
           "desc": "个人图床，图片上传，电报接口已失效"
+        }
+      ]
+    },
+    {
+      "name": "视频剪辑",
+      "en_name": "video clip",
+      "icon": "linecons-star",
+      "web": [
+        {
+          "title": "pexels",
+          "url": "https://www.pexels.com/zh-cn/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "免费剪辑素材 "
+        },
+        {
+          "title": "33台词网",
+          "url": "https://33.agilestudio.cn/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "通过台词寻找影片素材"
+        },
+        {
+          "title": "预告片世界",
+          "url": "https://i.yugaopian.cn/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "预告片世界镜像网站"
+        },
+        {
+          "title": "影视飓风",
+          "url": "https://www.ysjf.com/home",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "影视飓风素材库"
+        },
+        {
+          "title": "mixkit",
+          "url": "https://mixkit.co/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "免费剪辑素材"
+        }
+      ]
+    },
+    {
+      "name": " AI 探索",
+      "en_name": "AI explore",
+      "icon": "linecons-star",
+      "web": [
+        {
+          "title": "chatopens",
+          "url": "https://www.chatopens.chat/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "AI 聚合网站"
         }
       ]
     }
