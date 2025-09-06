@@ -369,6 +369,12 @@
           "url": "https://mixkit.co/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "免费剪辑素材"
+        },
+        {
+          "title": "PICKFREE",
+          "url": "https://www.pickfree.cn/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": ""
         }
       ]
     },
@@ -382,6 +388,42 @@
           "url": "https://www.chatopens.chat/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "AI 聚合网站"
+        },
+        {
+          "title": "ChatGPT",
+          "url": "https://chatgpt.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": ""
+        },
+        {
+          "title": "通义千问",
+          "url": "https://chat.qwen.ai/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": ""
+        },
+        {
+          "title": "openrouter",
+          "url": "https://openrouter.ai/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": ""
+        },
+        {
+          "title": "ai-bot",
+          "url": "https://ai-bot.cn/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": ""
+        },
+        {
+          "title": "果汁AI导航",
+          "url": "http://guozhivip.com/ai/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": ""
+        },
+        {
+          "title": "Latent Box",
+          "url": "https://latentbox.com/zh",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": ""
         }
       ]
     },
