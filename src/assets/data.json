@@ -275,6 +275,18 @@
           "url": "https://free-for.dev/#/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "免费开发者资源"
+        },
+        {
+          "title": "v2ex",
+          "url": "https://www.v2ex.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "v2ex"
+        },
+        {
+          "title": "装个机",
+          "url": "https://zhuangit.ababtools.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "系统安装指南"
         }
       ]
     },
