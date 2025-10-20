@@ -926,6 +926,18 @@
           "url": "https://tstrs.me/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "免费电子书资源"
+        },
+        {
+          "title": "Anki",
+          "url": "https://ankiweb.net",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "自定义程度很高的记忆卡片"
+        },
+        {
+          "title": "w3school",
+          "url": "https://www.w3school.com.cn/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "免费在线程序学习"
         }
       ]
     },
