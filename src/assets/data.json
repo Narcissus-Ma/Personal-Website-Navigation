@@ -312,6 +312,12 @@
           "url": "https://piankw.com/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": "在线影视"
+        },
+        {
+          "title": "GreenVideo",
+          "url": "https://greenvideo.cc/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "vip视频下载观看，支持腾讯爱奇艺等"
         }
       ]
     },
@@ -393,6 +399,30 @@
           "url": "https://www.pickfree.cn/",
           "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
           "desc": ""
+        },
+        {
+          "title": "datatool",
+          "url": "https://www.datatool.vip/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "在线vip视频解析下载"
+        },
+        {
+          "title": "LookAE",
+          "url": "https://www.lookae.com/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "大众脸影影视后期特效"
+        },
+        {
+          "title": "Newcger",
+          "url": "https://www.newcger.com/aechajian/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "AE插件下载网"
+        },
+        {
+          "title": "爱给网",
+          "url": "https://www.aigei.com/video/index/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "寻找音效素材"
         }
       ]
     },
@@ -836,6 +866,12 @@
       "en_name": "Design & Creativity",
       "icon": "linecons-lightbulb",
       "web": [
+        {
+          "title": "Magic Eraser",
+          "url": "https://magiceraser.org/",
+          "logo": "https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b",
+          "desc": "简单的在线图片处理应用"
+        },
         {
           "url": "https://www.dbbqb.com/",
           "logo": "https://img1.tucang.cc/api/image/show/d49b2f40283fd12731be9e18b707d48a",
