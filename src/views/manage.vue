@@ -48,6 +48,23 @@
                   <label class="col-sm-2 control-label">Logo链接</label>
                   <div class="col-sm-10">
                     <input type="url" v-model="form.logo" class="form-control" required>
+                    <div class="default-logos mt-2">
+                      <small class="text-muted">选择默认图标：</small>
+                      <div class="logo-selector">
+                        <img 
+                          v-for="(logo, index) in defaultLogos" 
+                          :key="index"
+                          :src="logo"
+                          :alt="'默认图标' + (index + 1)"
+                          class="default-logo-item"
+                          :class="{ 'selected': form.logo === logo }"
+                          @click="form.logo = logo"
+                          style="width: 40px; height: 40px; margin: 5px; cursor: pointer; border: 2px solid transparent;"
+                          @mouseover="this.style.borderColor = '#3498db'"
+                          @mouseout="this.style.borderColor = form.logo === logo ? '#3498db' : 'transparent'"
+                        >
+                      </div>
+                    </div>
                   </div>
                 </div>
 
@@ -194,6 +211,23 @@
                 <div class="form-group">
                   <label class="col-sm-2 control-label">图标链接</label>
                   <div class="col-sm-10">
+                    <div class="default-logos mb-2">
+                      <small class="text-muted">选择默认图标：</small>
+                      <div class="logo-selector">
+                        <img 
+                          v-for="(logo, index) in defaultLogos" 
+                          :key="index"
+                          :src="logo"
+                          :alt="'默认图标' + (index + 1)"
+                          class="default-logo-item"
+                          :class="{ 'selected': searchEngineForm.icon === logo }"
+                          @click="searchEngineForm.icon = logo"
+                          style="width: 40px; height: 40px; margin: 5px; cursor: pointer; border: 2px solid transparent;"
+                          @mouseover="this.style.borderColor = '#3498db'"
+                          @mouseout="this.style.borderColor = searchEngineForm.icon === logo ? '#3498db' : 'transparent'"
+                        >
+                      </div>
+                    </div>
                     <input type="url" v-model="searchEngineForm.icon" class="form-control" required>
                   </div>
                 </div>
@@ -269,11 +303,28 @@
                         :class="{ 'drag-over': isDragOver && dragTarget.categoryIndex === categoryIndex && dragTarget.siteIndex === siteIndex }">
                       <td>
                         <template v-if="editingSite && editingSite.categoryIndex === categoryIndex && editingSite.siteIndex === siteIndex">
-                          <input type="url" v-model="editingSite.data.logo" class="form-control input-sm" placeholder="Logo URL">
-                          <img :src="editingSite.data.logo" alt="Preview" class="logo-preview" @error="handleLogoError">
-                        </template>
+                        <input type="url" v-model="editingSite.data.logo" class="form-control input-sm" placeholder="Logo URL">
+                        <img :src="editingSite.data.logo" alt="Preview" class="logo-preview" @error="handleItemLogoError(editingSite)">
+                        <div class="default-logos mt-2">
+                          <small class="text-muted">选择默认图标：</small>
+                          <div class="logo-selector">
+                            <img 
+                              v-for="(logo, index) in defaultLogos" 
+                              :key="index"
+                              :src="logo"
+                              :alt="'默认图标' + (index + 1)"
+                              class="default-logo-item"
+                              :class="{ 'selected': editingSite.data.logo === logo }"
+                              @click="editingSite.data.logo = logo"
+                              style="width: 40px; height: 40px; margin: 5px; cursor: pointer; border: 2px solid transparent;"
+                              @mouseover="this.style.borderColor = '#3498db'"
+                              @mouseout="this.style.borderColor = editingSite.data.logo === logo ? '#3498db' : 'transparent'"
+                            >
+                          </div>
+                        </div>
+                      </template>
                         <template v-else>
-                          <img :src="site.logo" :alt="site.title" class="site-logo" @error="handleLogoError">
+                          <img :src="site.logo" :alt="site.title" class="site-logo" @error="handleLogoError($event)">
                         </template>
                       </td>
                       <td>
@@ -368,6 +419,14 @@ export default {
       }
     ];
 
+    // 默认图标列表
+    const defaultLogos = [
+      'https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b',
+      'https://img1.tucang.cc/api/image/show/d49b2f40283fd12731be9e18b707d48a',
+      'https://img1.tucang.cc/api/image/show/77451257254f3851ce36fc23f98c8c70',
+      'https://img1.tucang.cc/api/image/show/9dbb66429a737edf0652a1e9000b15b8'
+    ];
+
     // Ensure we're using the correct data structure
     let categories = [];
     let searchEngines = defaultSearchEngines;
@@ -383,6 +442,7 @@ export default {
       categories,
       searchEngines,
       defaultEngine: 0,
+      defaultLogos,
       editingCategory: null,
       editingSite: null,
       categoryForm: {
@@ -615,7 +675,19 @@ export default {
 
     handleLogoError(event) {
       // Set a default logo when image fails to load
-      event.target.src = 'https://img1.tucang.cc/api/image/show/e1306a391e2a2a324370bfee481f497b';
+      event.target.src = this.defaultLogos[0];
+    },
+
+    // Enhanced error handler for editing mode
+    handleItemLogoError(item) {
+      // 处理网站的logo错误
+      if (item.data && item.data.logo) {
+        item.data.logo = this.defaultLogos[0];
+      }
+      // 处理分类的icon错误
+      else if (item.icon) {
+        item.icon = this.defaultLogos[0];
+      }
     },
 
     handleDragStart(event, categoryIndex, siteIndex) {
@@ -837,13 +909,35 @@ export default {
 }
 
 .logo-preview {
-  width: 32px;
-  height: 32px;
-  object-fit: contain;
-  border-radius: 4px;
-  margin-top: 5px;
-  border: 1px solid #ddd;
-}
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    border-radius: 4px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .default-logos .selected {
+    border-color: #3498db !important;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  }
+  
+  .logo-selector {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+  }
+  
+  .default-logo-item {
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    object-fit: contain;
+    background-color: #fff;
+  }
+  
+  .default-logo-item:hover {
+    transform: scale(1.05);
+  }
 
 /* Drag and drop styles */
 .drag-over {
@@ -946,4 +1040,4 @@ tr.drag-over td {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-</style> 
+</style>
