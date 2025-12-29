@@ -68,3 +68,6 @@
 - 提高项目性能
 - 支持 TypeScript 类型检查
 - 简化开发流程
+
+## 文件命名规范
+- 文件名采用 kebab-case 命名法，例如 `about-me.vue`
