@@ -1080,16 +1080,22 @@
       "icon": "linecons-star",
       "web": [
         {
+          "url": "https://resume.narcissus2ma.dpdns.org",
+          "logo": "https://img1.tucang.cc/api/image/show/77451257254f3851ce36fc23f98c8c70",
+          "title": "个人简历网站",
+          "desc": "关于我，个人简历，技能，项目经验，提供下载简历功能 备用链接：https://resume.384385.xyz/"
+        },
+        {
+          "title": "代码笔记",
+          "url": "https://codenotes.narcissus2ma.dpdns.org/programer-language-learn/",
+          "logo": "https://img1.tucang.cc/api/image/show/77451257254f3851ce36fc23f98c8c70",
+          "desc": "代码笔记"
+        },
+        {
           "url": "https://blog.384385.xyz/",
           "logo": "https://img1.tucang.cc/api/image/show/77451257254f3851ce36fc23f98c8c70",
           "title": "个人博客",
           "desc": "技术博客，个人生活，随笔，学习笔记"
-        },
-        {
-          "url": "https://resume.384385.xyz/",
-          "logo": "https://img1.tucang.cc/api/image/show/77451257254f3851ce36fc23f98c8c70",
-          "title": "个人简历网站",
-          "desc": "关于我，个人简历，技能，项目经验，提供下载简历功能"
         },
         {
           "title": "Narcissus-Chat",
